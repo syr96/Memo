@@ -2,7 +2,6 @@
 
 #wrap {
 	width:1200px;
-	height:800px;
 	margin:auto;
 }
 
@@ -11,17 +10,17 @@ header {
 }
 
 .content {
-	height:500px;
+
 }
 
 .content > .join-box {
 	width:400px;
 }
 
-footer {
-	height:50px;
-}
-
 .login-box {
 	width:400px;
+}
+
+footer {
+	height:50px;
 }
