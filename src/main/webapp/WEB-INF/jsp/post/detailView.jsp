@@ -20,8 +20,8 @@
 		<section class="d-flex justify-content-center">
 			<div class="w-75 my-5">
 				<h1 class="text-center">메모 보기</h1>
-				<div class="d-flex">
-					<label class="mr-2 mt-3">제목 : </label>
+				<div class="d-flex mt-3">
+					<label class="mr-2">제목 : </label>
 					<input type="text" class="form-control col-11" id="titleInput" value="${post.subject }">
 				</div>
 				<textarea class="form-control mt-3" rows="5" id="contentInput">${post.content }</textarea>
