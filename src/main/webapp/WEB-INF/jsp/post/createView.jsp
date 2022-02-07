@@ -62,8 +62,8 @@
 					url:"/post/create",
 					data:formData,
 					enctype:"mutipart/form-data", // 파일 업로드 필수
-					processData:false, // 파일 업로드 필수
-					contentType:false, // 파일 업로드 필수
+					processData:false, // 파일 업로드 필수. 사용법이다
+					contentType:false, // 파일 업로드 필수. 사용법이다
 					success:function(data) {
 						if(data.result == "success") {
 							location.href = "/post/list_view";

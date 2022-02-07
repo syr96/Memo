@@ -27,7 +27,8 @@ public class PostRestController {
 	public Map<String, String> create(
 			@RequestParam("subject") String subject,
 			@RequestParam("content") String content,
-			@RequestParam("file") MultipartFile file,
+			@RequestParam(value = "file", required = false) MultipartFile file,
+			// value 와 required 는 필수로 있어서 안보이는 상태, required 는 true 가 기본값이다
 			HttpServletRequest request) {
 		
 		HttpSession session = request.getSession();

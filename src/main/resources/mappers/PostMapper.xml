@@ -45,7 +45,7 @@
 			`id`
 			, `userId`
 			, `subject`
-			, `content`
+			, `content` 
 			, `imagePath`
 			, `createdAt`
 			, `updatedAt`
