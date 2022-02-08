@@ -12,7 +12,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 public class FileManagerService {
 	
-	public final static String FILE_UPLOAD_PATH = "D:\\석유림\\springProject\\spring\\upload\\image/";	
+	public final static String FILE_UPLOAD_PATH = "D:\\웹개발\\springProject\\spring\\upload\\image/";
+	// 학원 컴퓨터 : D:\\석유림\\springProject\\spring\\upload\\image/
 	// final 은 한번 세팅한 값은 절대 수정할 수 없게 해준다
 	// final 로 만든 변수는 대문자로 만들어준다
 	// 항상 같은 값이라서 static 을 붙여도 된다

@@ -26,7 +26,7 @@
 				</div>
 				<textarea class="form-control mt-3" rows="5" id="contentInput">${post.content }</textarea>
 				<div>
-					<img src="${post.imagePath }">
+					<img src="${post.imagePath }" width="800">
 				</div>
 				
 				<div class="d-flex justify-content-between mt-3">
